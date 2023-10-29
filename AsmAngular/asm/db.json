@@ -1,0 +1,15 @@
+{
+  "learner": [
+    {
+      "name": "Khang",
+      "email": "khang123@fpt.com",
+      "phoneNumber": 8468888888,
+      "cmnd": 123456789012,
+      "subject": [
+        "AngularJS"
+      ],
+      "time": "T7 ngày 14/10/2023",
+      "id": 1
+    }
+  ]
+}

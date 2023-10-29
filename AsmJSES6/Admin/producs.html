@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Page</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navLinks = document.querySelectorAll(".nav-link");
+
+            navLinks.forEach((link) => {
+                link.addEventListener("click", function () {
+                    navLinks.forEach((navLink) => {
+                        navLink.classList.remove("active");
+                    });
+                    this.classList.add("active");
+                });
+            });
+        });
+    </script>
+
+
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="header">
+            <label style="color: red; font-weight: 500; font-size: 30px;">GEARVN
+                <label style="color: white;font-weight: 500; font-size: 30px; ">ADMIN</label>
+            </label>
+            <div
+                style="display: flex;justify-content: center;align-items: center;width:40px;height: 40px;border-radius: 10px;border: 1px solid white;">
+                <img style="width:30px;height: 30px;border: 20px;" src="./assets/notification.png" alt="">
+            </div>
+        </div>
+
+        <div class="left-nav">
+            <ul class="nav flex-column">
+                <li>
+                    <img src="./assets/programmer.png" alt="" style="width: 100px; height: 100px; ">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./index.html">DANH MỤC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./producs.html">SẢN PHẨM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./order.html">ĐƠN HÀNG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./order.html">TÀI KHOẢN</a>
+                </li>
+                <!-- Thêm các mục menu khác tại đây -->
+            </ul>
+        </div>
+
+
+    </div>
+    <div class="products">
+        <p id="label-products">Sản phẩm</p>
+        <div class="product-item">
+            <p>Index</p>
+            <p class="product-image">Image</p>
+            <p class="product-details">Details</p>
+            <p>Action</p>
+        </div>
+        <div class="product-list">
+        </div>
+        <div class="add-product-form">
+            <h2>Thêm sản phẩm</h2>
+            <form action="#" method="post">
+                <label for="product-name">Tên sản phẩm:</label>
+                <input type="text" id="product-name" name="product-name" required placeholder="Nhập tên sản phẩm"><br>
+
+                <label for="product-price">Giá:</label>
+                <input type="text" id="product-price" name="product-price" required placeholder="Nhập giá sản phẩm"><br>
+
+                <label for="product-image">Ảnh sản phẩm (URL):</label>
+                <input type="text" id="product-image" name="product-image" placeholder="Nhập URL ảnh sản phẩm"
+                    required><br>
+                <label for="product-description">Mô tả:</label>
+                <textarea id="product-description" name="product-description" required
+                    placeholder="Nhập mô tả sản phẩm"></textarea><br>
+
+
+                <button type="submit">Thêm sản phẩm</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

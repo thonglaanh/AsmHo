@@ -1,0 +1,136 @@
+.container__cart {
+    display: flex;
+    height: auto;
+    justify-content: center;
+}
+
+.container__cart__first {
+    background-color: white;
+    width: 1340px;
+    margin: 100px 0;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+
+.container__cart__first__DSSP {
+    width: 820px;
+    height: 800px;
+}
+
+table {
+    margin-bottom: 1em;
+    width: 800px;
+    margin-top: 5px;
+}
+
+
+table th {
+    font-weight: bold;
+    font-size: 16px;
+    height: 50px;
+}
+
+table td {
+    font-size: 16px;
+    text-align: center;
+}
+
+
+table .product__name span {
+    line-height: 76px;
+}
+
+.addquantity {
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    width: 110px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin: auto;
+}
+
+#xoa input {
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    outline: none;
+    border: none;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    font-weight: bold;
+}
+
+#xoa input:hover {
+    background-color: rgb(221 221 221);
+}
+
+.addquantity>input {
+    width: 35px;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+.addquantity>.change-color:hover {
+    background-color: rgb(221 221 221);
+
+}
+
+.addquantity>.shadow:focus {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(37, 92, 69, 0.08) 0px 1px 0px inset;
+}
+
+.container__cart__first__pay {
+    height: 800px;
+    width: 520px;
+
+}
+
+.container__cart__first__pay>div {
+    width: 98%;
+    height: 50px;
+    padding: 5px;
+    border-bottom: 2px solid gainsboro;
+    line-height: 50px;
+}
+
+.container__cart__first__pay>.Cong__Gio__Hang {
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.container__cart__first__pay>.Tam__Tinh,
+.Giao__Hang,
+.Tong {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__cart__first__pay {
+    font-weight: bolder;
+}
+
+.container__cart__first__pay>.Tien__Hanh_Thanh__Toan>button {
+    background-color: #255c45;
+    height: 80%;
+    width: 100%;
+    color: white;
+    margin: auto;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border: none;
+    font-size: 17px;
+}
+
+.container__cart__first__pay>.Tien__Hanh_Thanh__Toan>button:hover {
+    background-color: #038b7d;
+    cursor: pointer;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.footer {
+    margin-top: 0px;
+}

@@ -1,0 +1,38 @@
+.container-body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 50px;
+}
+
+.container-body img {
+    width: 500px;
+    height: 500px;
+    margin-left: 350px;
+}
+
+.container-body p {
+    font-size: 18px;
+    font-weight: 500;
+    color: brown;
+    text-align: center;
+    line-height: 20px;
+}
+
+.container-body button {
+    padding: 10px 40px;
+    background-color: brown;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+
+}
+
+.container-body button:hover {
+    color: gray;
+}
+
+.container-body button a {
+    color: aliceblue;
+    font-size: 18px;
+}

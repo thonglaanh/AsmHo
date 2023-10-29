@@ -1,0 +1,95 @@
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+
+        height: 100vh;
+    }
+
+    .table-container {
+        width: 100%;
+    }
+
+    table {
+        margin-top: 20px;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th {
+        background-color: #f1f1f1;
+        font-weight: bold;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    tr:hover {
+        background-color: #e9e9e9;
+    }
+
+    td {
+        padding: 8px;
+        border: 1px solid #ccc;
+    }
+
+    .btn {
+        margin: 5px;
+        padding: 8px 16px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+</style>
+
+<div class="container">
+
+    <div class="table-container">
+        <div style="display: flex; justify-content: space-between; margin-top: 20px;">
+            <button class="btn">Thêm dữ liệu</button>
+            <input type="text" placeholder="Tìm kiếm..."
+                style="width: 500px;margin-left: 550px;border-radius: 20px;height: 40px;margin-top: 6px;padding: 20px;" />
+            <button class="btn">Tìm kiếm</button>
+        </div>
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Image</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Discount</th>
+                    <th scope="col">Sold</th>
+                    <th scope="col">Rating</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Root</th>
+                    <th scope="col">Descreption</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each data}}
+                <tr>
+                    <td><img src={{this.image}} alt="" width="50px" height="50px"></td>
+                    <td>{{this.name}}</td>
+                    <td>{{this.price}}</td>
+                    <td>{{this.discount}}</td>
+                    <td>{{this.sold}}</td>
+                    <td>{{this.rating}}</td>
+                    <td>{{this.city}}</td>
+                    <td>{{this.root}}</td>
+                    <td>{{this.descreption}}</td>
+                    <td>
+                        <button class="btn">Sửa</button>
+                        <button class="btn">Xóa</button>
+                    </td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+
+    </div>
+</div>

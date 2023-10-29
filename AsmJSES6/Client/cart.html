@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+</head>
+
+<body onload="napSP()">
+    <div class="app">
+        <header class="header">
+            <div class="header__topbar" style="width: 1340px; margin: auto;">
+                <div class="header__topbar__first">
+                    Miễn phí vận chuyển toàn quốc với các đơn hàng trên <b> 300,000 VNĐ.</b>
+                </div>
+                <div class="mt-1"></div>
+            </div>
+            <div class="header__main" style="width: 1340px; margin: auto;">
+                <div class="logo-search">
+                    <div class="logo">
+                        <a href="./index.html">
+                            <img src="./assets/logo.png" alt="logo" width="100%" height="60%">
+                        </a>
+                    </div>
+                    <div class="search" style="margin-top: 40px;">
+                        <input type="text" placeholder="Nhập ít nhất 3 ký tự để tìm sản phẩm">
+                    </div>
+                </div>
+                <div class="login-cart">
+                    <div class="login">
+                        <button><a href="./login.html">ĐĂNG NHẬP</a></button>
+                    </div>
+                    <div class="cart">
+                        <a href="./cart.html">
+
+                            <img style="width: 30px; height: 30px;" src="./assets/icon-cart.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu" style="width: 1340px; margin: auto;">
+                <div class="header__menu__flex">
+                    <ul>
+                        <div style="background-color: rgb(37 92 69); padding: 15px 10px;">
+                            <li>
+                                <a style="color: white;" href="./index.html">DANH MỤC CỬA HÀNG</a>
+                                <ul class="submenu">
+                                    <li style="height: 40px;">
+                                        <a href="#">Đang cập nhật</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <a href="./allProduct.html">TÁT CẢ SẢN PHẨM</a>
+                                <ul class="submenu">
+                                    <li style="height: 40px;">
+                                        <a href="#">Đang cập nhật</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <a href="./allProduct.html">SẢN PHẨM HOT</a>
+                                <ul class="submenu">
+                                    <li style="height: 40px;">
+                                        <a href="#">Đang cập nhật</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <a href="#">LIÊN HỆ VỚI CHÚNG TÔI</a>
+                                <ul class="submenu-last" style="width: 200%;">
+                                    <li>
+                                        <a href="#">REVIEW HƯỚNG DẪN</a>
+                                    </li>
+                                    <li style="margin-bottom: 20px;">
+                                        <a href="#">BLOG SẢN PHẨM</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </div>
+
+                    </ul>
+                </div>
+                <div class="header__menu__flexRight" style="width: 20px;">
+
+                </div>
+            </div>
+        </header>
+        <div class="container__cart">
+            <div class="container__cart__first">
+                <div class="container__cart__first__DSSP">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+
+                                </th>
+                                <th>
+                                    Sản Phẩm
+                                </th>
+                                <th>
+                                    Giá
+                                </th>
+                                <th>
+                                    Số Lượng
+                                </th>
+                                <th>
+                                    Xóa
+                                </th>
+                            </tr>
+                        </thead>
+                        <!-- Ranh Gioi -->
+                        <tbody id="datarow">
+
+                        </tbody>
+                    </table>
+                    <button onclick=""></button>
+                </div>
+                <!-- Ranh Gioi -->
+                <div class="container__cart__first__pay">
+                    <div class="Cong__Gio__Hang">
+                        Cộng Giỏ Hàng
+                    </div>
+                    <div class="Tam__Tinh">
+                        <div>
+                            Tạm Tính
+                        </div>
+                        <div id="tongTien">
+
+                        </div>
+                    </div>
+                    <div class="Giao__Hang">
+                        <div>
+                            Giao Hàng
+                        </div>
+                        <div id="tienShip">
+
+                        </div>
+                    </div>
+                    <div class="Tong">
+                        <div>
+                            Tổng
+                        </div>
+                        <div id="congTienShip">
+                        </div>
+                    </div>
+                    <div class="Tien__Hanh_Thanh__Toan" style="border: none; margin-top: 10px;">
+                        <button><a href="./paySuccess.html" style="color: white;">TIẾN HÀNH THANH TOÁN</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="header__topbar__second">
+            <div class="topbar__second__flexLeft" style="margin-top: 7px;">
+                <ul>
+                    <li>
+                        <strong style="font-size: 14px;">
+                            LIÊN HỆ TƯ VẤN:
+                            <span style="color: red;">
+                                090 14 322 41
+                            </span>
+                        </strong>
+
+                    </li>
+                    <li style="margin-left: 20px;">
+                        <strong style="font-size: 11px;">
+                            ĐỊA CHỈ
+                            <span style="color: red;">
+                                151/8 LẠC LONG QUÂN, PHƯỜNG 1, QUẬN 11(LƯU Ý PHƯỜNG 1)
+                            </span>
+                        </strong>
+                    </li>
+                </ul>
+            </div>
+            <div class="topbar__second__flexRight">
+                <ul>
+                    <li>
+                        <a href="#">Về chúng tôi</a>
+                    </li>
+                    <li>
+                        <a href="#">Các câu hỏi - FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                    <li class="icon-social">
+                        <div class="icon-facebook">
+                            <img title="Follow Facebook" src="./assets/icon-facebook.webp" alt=""
+                                style="width: 20px; height: 20px;">
+                        </div>
+                        <div class="icon-facebook">
+                            <img title="Follow Instagram" src="./assets/icon-instagram.png" alt=""
+                                style="width: 20px; height: 20px;">
+                        </div>
+                        <div class="icon-facebook">
+                            <img title="Send us an email" src="./assets/icon-email.png" alt=""
+                                style="width: 20px; height: 20px;">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/cart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/login.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="app">
+        <header class="header" style="background-color: #fff;">
+            <div class="header__topbar" style="width: 1340px; margin: auto;">
+                <div class="header__topbar__first">
+                    Miễn phí vận chuyển toàn quốc với các đơn hàng trên <b> 300,000 VNĐ.</b>
+                </div>
+                <div class="mt-1"></div>
+            </div>
+            <div class="header__main" style="width: 1340px; margin: auto;">
+                <div class="logo-search">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo-CLmenstore.gif" alt="">
+                        </a>
+                    </div>
+                    <div class="search" style="margin-top: 40px;">
+                        <input type="text" placeholder="Nhập ít nhất 3 ký tự để tìm sản phẩm">
+                    </div>
+                </div>
+                <div class="login-cart">
+                    <div class="login">
+                        <button><a href="login.html">ĐĂNG NHẬP</a></button>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <img style="width: 30px; height: 30px;" src="img/icon-cart.png" alt="">
+                        </a>    
+                    </div>
+                </div>
+            </div>
+            <div class="header__menu" style="width: 1340px; margin: auto;">
+                <div class="header__menu__flex">
+                    <ul>
+                        <div style="background-color: rgb(37 92 69); padding: 15px 10px;">
+                            <li>
+                                <a style="color: white;" href="#">DANH MỤC CỬA HÀNG</a>
+                                <ul class="submenu">
+                                    <li style="height: 40px;">
+                                        <a href="#">Đang cập nhật</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <a href="#">THƯƠNG HIỆU GROMING</a>
+                                <ul class="submenu">
+                                    <li style="height: 40px;">
+                                        <a href="#">Đang cập nhật</a>
+                                    </li>
+                                </ul>
+                            </li></div>
+                        <div>
+                            <li>
+                                <a href="#">THƯƠNG HIỆU NƯỚC HOA</a>
+                                <ul class="submenu">
+                                    <li style="height: 40px;">
+                                        <a href="#">Đang cập nhật</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div>
+                            <li class="THSC">
+                                <a href="#">THƯƠNG HIỆU SKINCARE</a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a  href="#">APPRICUS SKINCARE</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">BULLDOG SKINCARE</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">THE GROMED MAN CO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">SUKIN NATURALS</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">NARUKO SKINCARE</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">LUMIN SKINCARE</a>
+                                    </li>
+                                    <li style="margin-bottom: 20px;">
+                                        <a href="#">PAULA'S CHOICE</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <a href="#">BLOG/REVIEW</a>
+                                <ul class="submenu-last" style="width: 200%;">
+                                    <li>
+                                        <a  href="#">REVIEW HƯỚNG DẪN</a>
+                                    </li>
+                                    <li style="margin-bottom: 20px;">
+                                        <a href="#">BLOG SẢN PHẨM</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="header__menu__flexRight" style="width: 20px;">
+
+                </div>
+            </div>
+        </header>
+        <div class="login-roll">
+            <div class="login-register">
+                <div class="loginplus">
+                    <div class="dangnhap">
+                        <h1>Đăng Nhập</h1>
+                    </div>
+                    <form action="">
+                        <input type="tel" placeholder="Nhập Tên Tài Khoản" required> <br>
+                        <input type="password" placeholder="Mật khẩu" required>
+                        <input type="submit" value="ĐĂNG NHẬP" class="button">
+                        <br>
+                        <div class="quenmk">
+                            <a href="#">Quên mật khẩu</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="registerplus" >
+                    <div class="dangki">
+                        <h1>Đăng Kí</h1>
+                    </div>
+                    <form  name="f1" onsubmit="kiemform()" action="chitietsanpham.html">
+                        <input type="text" name="ten" placeholder="Tên Tài Khoản" required>
+                        <input type="tel" name="sdt" placeholder="Nhập số điện thoại" >
+                        <input type="email" name="email" name="" id="" placeholder="Nhập Email" > 
+                        <input type="number" name="tuoi" id="">
+                        <input type="radio" name="r1" value="Nam" style="width: 50px;">
+                        
+                        <label style="font-size: 20px;" for="">Nam</label>
+                        <input type="radio" name="r1" value="Nữ" style="width: 50px;">
+                        <label style="font-size: 20px;" for="">Nữ</label>
+                        <input type="password" name="pas1" placeholder="Mật khẩu" >
+                        <input type="password" name="pas2" placeholder="Nhập Lại Mật khẩu" required>
+                        <br>
+                        <label for="" id="thongbao" style="font-size: larger; font-weight: bold;  color: red;"></label>
+                        <input type="submit" class="button" onclick="kiemform()" value="ĐĂNG KÝ">
+                    </form>    
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="header__topbar__second">
+                <div class="topbar__second__flexLeft" style="margin-top: 7px;">
+                    <ul>
+                        <li>
+                            <strong style="font-size: 14px;">
+                                LIÊN HỆ TƯ VẤN:
+                                <span style="color: red;">
+                                    090 14 322 41
+                                </span>
+                            </strong>
+    
+                        </li>
+                        <li style="margin-left: 20px;">
+                            <strong style="font-size: 11px;">
+                                ĐỊA CHỈ
+                                <span style="color: red;">
+                                    151/8 LẠC LONG QUÂN, PHƯỜNG 1, QUẬN 11(LƯU Ý PHƯỜNG 1)
+                                </span>
+                            </strong>
+                        </li>
+                    </ul>
+                </div>
+                <div class="topbar__second__flexRight">
+                    <ul>
+                        <li>
+                            <a href="#">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="#">Các câu hỏi - FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Liên hệ</a>
+                        </li>
+                        <li class="icon-social">
+                            <div class="icon-facebook">
+                                <img title="Follow Facebook" src="img/icon-facebook.webp" alt=""
+                                    style="width: 20px; height: 20px;">
+                            </div>
+                            <div class="icon-facebook">
+                                <img title="Follow Instagram" src="img/icon-instagram.png" alt=""
+                                    style="width: 20px; height: 20px;">
+                            </div>
+                            <div class="icon-facebook">
+                                <img title="Send us an email" src="img/icon-email.png" alt=""
+                                    style="width: 20px; height: 20px;">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="js/login.js"></script>
+</body>
+</html>

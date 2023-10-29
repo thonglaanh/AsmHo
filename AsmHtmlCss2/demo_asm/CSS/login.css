@@ -1,0 +1,96 @@
+.login-roll{
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+    margin-top: 50px;
+}
+.login-register{
+    display: flex;
+    justify-content: space-around;
+    width: 1340px;
+    
+}
+.loginplus{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 400px;
+    margin: 30px auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: white;
+}
+.login-register .dangnhap{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+.login-register .dangki{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+.login-register form{
+    margin-top: 10px;
+    text-align: center;
+}
+.login-register form>input{
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 450px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.login-register form>input:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px #1d6752;
+}
+
+.login-register form>.birthday{
+    /* border: 1px solid red; */
+    width: 450px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+    line-height: 40px;
+    text-align: left;
+}
+.login-register form>.button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    width: 450px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    font-weight: bold;
+}
+.login-register form>.button:hover{
+    background-color: white;
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    transition: 0.27s ease-in-out;
+    cursor: pointer;
+}
+.loginplus>form>.quenmk{
+    font-style: italic;
+    border-bottom: 1px solid gray;
+    height: 40px;
+    width: 450px;
+    margin-left: 25px;
+}
+.registerplus{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 700px;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

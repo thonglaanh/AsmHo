@@ -1,0 +1,38 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    max-width: 1340px;
+    margin: 0 auto
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}

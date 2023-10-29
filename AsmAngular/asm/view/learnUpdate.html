@@ -1,0 +1,72 @@
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <label style="font-size: 25px;">Thông tin nhập học</label>
+                <div class="border">
+                    <form class="m-2">
+                        <div class="form-group">
+                            <label for="name">Họ và tên</label>
+                            <input ng-model="student.name" type="text" class="form-control" id="name"
+                                placeholder="Họ và tên">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input ng-model="student.email" type="email" name="email" class="form-control" id="email"
+                                placeholder="Email" required>
+                            <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber">Số điện thoại</label>
+                            <input ng-model="student.phoneNumber" type="number" class="form-control" id="phoneNumber"
+                                placeholder="Số điện thoại">
+                        </div>
+                        <div class="form-group">
+                            <label for="cmnd">Số CMND/CCCD</label>
+                            <input ng-model="student.cmnd" type="number" class="form-control" id="cmnd"
+                                placeholder="Số CMND/CCCD">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="col-6">
+                <label style="font-size: 25px;">Khóa học đã chọn</label>
+                <div class="border">
+                    <form class="ml-2 mt-2">
+                        <label>Chọn khóa học</label>
+                        <select ng-model="student.subject" multiple class="custom-select" size="6">
+                            <option value="Javascript">Javascript</option>
+                            <option value="Java Springboot">Java Springboot</option>
+                            <option value="SQL Server">SQL Server</option>
+                            <option value="AngularJS">AngularJS</option>
+                            <option value="VueJS">VueJS</option>
+                            <option value="ReactJS">ReactJS</option>
+                            <option value="Native">Native</option>
+                        </select>
+                        <br>
+                        <br>
+                        <div>
+                            <label>Đã chọn khóa học <strong>{{ convertToString(student.subject) }}</strong></label>
+                        </div>
+                        <div>
+                            <label for="price">Thành tiền</label>
+                            <span style="color: red;"><strong>{{getMoney(student.subject)}}</strong></span>
+
+                        </div>
+                    </form>
+                </div>
+                <span>
+                    Chú ý: Bạn đang trong tiến trình cập nhật thông tin cá nhân, sau khi nhập thông tin bạn cần lưu lại.
+                </span>
+                <br>
+                <div style="text-align: center;">
+                    <button ng-click="updateStudent()" class="mt-2 btn"
+                        style="background-color: #f12729; color: white;">
+                        <strong>Lưu lại</strong>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

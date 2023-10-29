@@ -1,0 +1,127 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Gaming"
+    },
+    {
+      "id": 2,
+      "name": "Văn phòng"
+    },
+    {
+      "id": 3,
+      "name": "Mac"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Asus ZenBook Flip OLED UP3404VA KN038W",
+      "cate_id": 2,
+      "price": "14.790.000₫",
+      "detail": " Vivobook 14 OLED sở hữu một màu bạc sang trọng với thiết kế vuông vắn đầy tinh tế. Bản lề được thiết kế tự tạo một góc nghiêng vừa phải khi mở nắp máy tính lên. Trọng lượng nhẹ khoảng 1.6kg tạo điều kiện hơn cho người dùng bỏ vào balo và mang vác đi bất cứ đâu. Độ bền đạt chuẩn quân sự Mỹ mang lại cảm giác an toàn. Sẵn sàng bắt đầu một ngày mới đầy hứng khởi trên mọi chặng đường.&nbsp;",
+      "image": "https://product.hstatic.net/200000722513/product/km047w_fe34ae67ecf844f094a5e716f73d8f42_grande.png"
+    },
+    {
+      "id": 2,
+      "name": "Laptop Asus ZenBook Flip OLED UP3404VA KN038W",
+      "cate_id": 2,
+      "price": "24.490.000₫",
+      "detail": ". Sở hữu sức mạnh từ con chip Intel Gen13 mới nhất để xử lý mọi công việc từ đơn giản đến phức tạp. Màn hình cảm ứng OLED hứa hẹn sẽ đem lại những trải nghiệm hấp dẫn cho bạn. ",
+      "image": "https://product.hstatic.net/200000722513/product/kn039-038w_1f813f55348341e7a0a257e1d7f2128b_grande.png"
+    },
+    {
+      "id": 3,
+      "name": "Laptop gaming Acer Nitro 16 Phoenix AN16 41 R50Z",
+      "cate_id": 1,
+      "price": "27.990.000₫",
+      "detail": "Thương hiệu laptop đến từ Đài Loan không chỉ ghi dấu ấn trong những model ",
+      "image": "//product.hstatic.net/200000722513/product/r50z_2525b37b138f4b97924257e59c3c1fc0_grande.png"
+    },
+    {
+      "id": 4,
+      "name": "Laptop gaming MSI Cyborg 15 A12VE 240VN",
+      "cate_id": 1,
+      "price": "23.990.000₫",
+      "detail": " nhấn mạnh slogan cho series sản phẩm từ nhà rồng - “MSI True Gaming” như khẳng định cho phân khúc người dùng thuộc về nó. Một chiến binh người máy mạnh mẽ đang trông chờ chủ nhân xứng đáng với nó, MSI Cyborg 15 A12VE 240VN.",
+      "image": "https://product.hstatic.net/200000722513/product/240vn_e45a5cfe032341c0a3a577811058d68c_f203e5759381475884592a68408741ef_grande.png"
+    },
+    {
+      "id": 5,
+      "name": "Laptop Gaming MSI Katana 15 B13VEK 1205VN",
+      "cate_id": 1,
+      "price": "35.990.000₫",
+      "detail": " nhấn mạnh slogan cho series sản phẩm từ nhà rồng - “MSI True Gaming” như khẳng định cho phân khúc người dùng thuộc về nó. Một chiến binh người máy mạnh mẽ đang trông chờ chủ nhân xứng đáng với nó, MSI Cyborg 15 A12VE 240VN.",
+      "image": "https://product.hstatic.net/200000722513/product/1205vn_da651643e91047bfa9729c53f93ffc6e_grande.png"
+    },
+    {
+      "id": 6,
+      "name": "Máy tính để bàn All In One văn phòng ASUS A3402WBAK-WA066W",
+      "cate_id": 2,
+      "price": "45.990.000₫",
+      "detail": " nhấn mạnh slogan cho series sản phẩm từ nhà rồng - “MSI True Gaming” như khẳng định cho phân khúc người dùng thuộc về nó. Một chiến binh người máy mạnh mẽ đang trông chờ chủ nhân xứng đáng với nó, MSI Cyborg 15 A12VE 240VN.",
+      "image": "https://product.hstatic.net/200000722513/product/imac_16_256_b_fbcf4f48804045a08afc928994dcc6cf_a718ad05fa6947329ddea3367e87ead9_grande.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Laptop Asus ZenBook Flip OLED UP3404VA KN038W",
+      "cate_id": 2,
+      "price": "18.080.000₫",
+      "detail": " Vivobook 14 OLED sở hữu một màu bạc sang trọng với thiết kế vuông vắn đầy tinh tế. Bản lề được thiết kế tự tạo một góc nghiêng vừa phải khi mở nắp máy tính lên. Trọng lượng nhẹ khoảng 1.6kg tạo điều kiện hơn cho người dùng bỏ vào balo và mang vác đi bất cứ đâu. Độ bền đạt chuẩn quân sự Mỹ mang lại cảm giác an toàn. Sẵn sàng bắt đầu một ngày mới đầy hứng khởi trên mọi chặng đường.&nbsp;",
+      "image": "https://product.hstatic.net/200000722513/product/cc1_87b707e2a4ec4f80a7e212cbebdf67e0_2b772246906049c1986474f473f4bf5d_1024x1024.png"
+    },
+    {
+      "id": 8,
+      "name": "iMac 24 2021 M1 8GPU 16GB 256GB Z12W0004Q - Blue",
+      "cate_id": 3,
+      "price": "45.990.000₫",
+      "detail": " nhấn mạnh slogan cho series sản phẩm từ nhà rồng - “MSI True Gaming” như khẳng định cho phân khúc người dùng thuộc về nó. Một chiến binh người máy mạnh mẽ đang trông chờ chủ nhân xứng đáng với nó, MSI Cyborg 15 A12VE 240VN.",
+      "image": "https://product.hstatic.net/200000722513/product/u-16gpu-16gb-512gb-silver-mnh73sa-a-1_7ea5e8af38af4d6cb7c6ee3934b0a43f_d2d598df61fb4655a114dc3ea50c4a5d_grande.png"
+    },
+    {
+      "id": 9,
+      "name": "iMac 24 2021 M1 8GPU 16GB 256GB Z12W0004Q - Blue",
+      "cate_id": 3,
+      "price": "45.990.000₫",
+      "detail": " nhấn mạnh slogan cho series sản phẩm từ nhà rồng - “MSI True Gaming” như khẳng định cho phân khúc người dùng thuộc về nó. Một chiến binh người máy mạnh mẽ đang trông chờ chủ nhân xứng đáng với nó, MSI Cyborg 15 A12VE 240VN.",
+      "image": "https://product.hstatic.net/200000722513/product/u-16gpu-16gb-512gb-silver-mphh3sa-a-1_87cecf4aadae4c0aa6d5b6aad5b75396_55741b9991794fa3bb046f135c575269_grande.png"
+    },
+    {
+      "id": 10,
+      "name": "Laptop gaming ASUS TUF Gaming A15 FA507XI LP420W",
+      "cate_id": 1,
+      "price": "26.990.000₫",
+      "detail": " nhấn mạnh slogan cho series sản phẩm từ nhà rồng - “MSI True Gaming” như khẳng định cho phân khúc người dùng thuộc về nó. Một chiến binh người máy mạnh mẽ đang trông chờ chủ nhân xứng đáng với nó, MSI Cyborg 15 A12VE 240VN.",
+      "image": "https://product.hstatic.net/200000722513/product/4a46d43e4b82391209328e195_large_7fa59a1a8ef14c37b78bc34161b45a87_large_3fde5b7b365d412185c9638dd2a0068c_grande.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "John Doe",
+      "customer_address": "123 Main St",
+      "customer_email": "john@example.com",
+      "customer_phone_number": "123-456-7890",
+      "created_date": "2023-10-13",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "customer_name": "Jane Smith",
+      "customer_address": "456 Elm St",
+      "customer_email": "jane@example.com",
+      "customer_phone_number": "987-654-3210",
+      "created_date": "2023-10-14",
+      "status": "Shipped"
+    },
+    {
+      "id": 3,
+      "customer_name": "Ronaldo",
+      "customer_address": "22 Portugar",
+      "customer_email": "sencondgoat@example.com",
+      "customer_phone_number": "127-654-1210",
+      "created_date": "2023-10-14",
+      "status": "Pending"
+    }
+  ]
+}

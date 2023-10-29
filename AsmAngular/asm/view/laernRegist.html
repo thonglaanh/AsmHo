@@ -1,0 +1,83 @@
+<body>
+    <div>
+        <div>
+        </div>
+        <div style="text-align: center;" class="mt-3 ml-5">
+            <h2>Đăng ký học javascript nền tảng cho người mới bắt đầu</h2>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <label style="font-size: 25px;">Thông tin nhập học</label>
+                    <div class="border" a>
+                        <form class="m-2">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Họ và tên</label>
+                                <input ng-model="name" type="text" class="form-control" id=""
+                                    aria-describedby="emailHelp" placeholder="Họ và tên">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input ng-model="email" type="email" name="email" ng-model="email" class="form-control"
+                                    id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"
+                                    required my-directive>
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Số điện thoại</label>
+                                <input ng-model="phoneNumber" type="number" class="form-control" id=""
+                                    aria-describedby="emailHelp" placeholder="Số điện thoại">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Số CMND/CCCD</label>
+                                <input ng-model="cmnd" type="number" class="form-control" id=""
+                                    aria-describedby="emailHelp" placeholder="Số CMND/CCCD">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <label style="font-size: 25px;">Khóa học đã chọn</label>
+                    <div class="border">
+                        <form class="ml-2 mt-2">
+                            <label>Chọn khóa học</label>
+                            <select ng-model="subject" multiple class="custom-select" size="6">
+                                <option selected>Javascript</option>
+                                <option value="Java Springboot">Java Springboot</option>
+                                <option value="SQL Server">SQL Server</option>
+                                <option value="AngularJS">AngularJS</option>
+                                <option value="VueJS">VueJS</option>
+                                <option value="ReactJS">ReactJS</option>
+                                <option value="Native">Native</option>
+                            </select>
+                            <br>
+                            <br>
+                            <div>
+                                <label>Đã chọn khóa học <strong>{{convertToString(subject)}}</strong></label>
+                            </div>
+                            <div>
+
+                                <label for="">Thành tiền</label>
+                                <span style="color: red;"><strong>{{getMoney(subject)}}</strong></span>
+                            </div>
+                        </form>
+                    </div>
+                    <span>
+                        Chú ý: Bạn đang trong tiến trình đăng ký nhập học, sau khi nhập thông tin cá nhân bạn sẽ nhận
+                        được hướng dẫn thanh toán.
+                    </span>
+                    <br>
+                    <div style="text-align: center;">
+                        <button ng-click="onSubmit()" type="submit" class="mt-2 btn"
+                            style="background-color: #f12729; color: white;"><strong>Đăng ký</strong></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
